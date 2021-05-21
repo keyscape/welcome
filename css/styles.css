@@ -1,0 +1,39 @@
+@font-face {
+    font-family: fontMM;
+    src: url(../assets/mrmonster.ttf);
+}
+
+body{
+    font-family: fontMM;
+    margin: 0;
+}
+
+p {
+    font-size: 2.5vh;
+}
+
+.top{
+    height: 6vh;
+    padding: 2vh 0;
+    font-size: 6vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.mid{
+    height: 84vh;
+    padding: 3vh 0;
+    background: radial-gradient(circle, #000000a1 0%, #00000091 100%), url("../assets/back.jpg");
+    background-color: rgb(33, 33, 33);
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.checkboxText {
+    outline: none;
+    width: 2.5vh; 
+    height: 2.5vh;
+}
